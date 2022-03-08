@@ -1,12 +1,12 @@
 import './Product.css'
 import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
-
+import Card from '../../components/card/Card'
 function Product() {
     return (
         <>
             <Header/>
-           <h1>Product</h1> 
+           <Card productName="Bebê Reborn Mayara" valueProduct=" R$ 799,00 "  parcel=" Ou 10x sem juros"/>
            <Footer/>
         </>
     )
