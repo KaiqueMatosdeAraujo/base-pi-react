@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom'
 import './Card.css';
 import { row , col , button } from 'react-bootstrap'
-
+import  Heart from './imgs/heart (2).png'
 function Card(props) {
   return (
         <>
       <div className="cardProdutoRelacionado  col-lg-2 col-sm-5 col-8">
         <div className="col-6">
-          <row>
-            <a className="fav-icon"><img src={props.heartImage} width="25" height="25" /></a>
-          </row>
+          <div class="row">
+            <a className="fav-icon"><img src={ Heart } width="25" height="25" /></a>
+          </div>
         </div>
 
 
